@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Assignment</title>
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: cyan;
+  border: 1px solid;
+}
+h2{
+  float: right;
+  border: solid;
+}
+p {
+  border: 1px solid black;
+  background-color: grey;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+  clear: right;
+}
+.Pizza{
+  background-color: red;
+}
+.Burger{
+  background-color: yellow;
+}
+.Fries{
+  background-color: orange;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-4, .col-lg-12 {
+    float: left;
+    border: 1px solid green;
+  }
+
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    border: 1px solid green;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+ width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+<h1>MENU</h1>
+
+<div class="row">
+  <div class="col-lg-4 col-md-6"><h2 class="Pizza">Pizza</h2>
+    <p>The term pizza was first recorded in the 10th century in a Latin manuscript from the Southern Italian town of Gaeta in Lazio, on the border with Campania. Modern pizza was invented in Naples, and the dish and its variants have since become popular in many countries.</p>
+  </div>
+  <div class="col-lg-4 col-md-6"><h2 class="Burger">Burger</h2>
+    <p>Fletcher Davis of Athens, Texas claimed to have invented the hamburger. According to oral histories, in the 1880s he opened a lunch counter in Athens and served a 'burger' of fried ground beef patties with mustard and Bermuda onion between two slices of bread, with a pickle on the side.</p>
+  </div>
+  <div class="col-lg-4 col-md-6"><h2 class="Fries">Fries</h2>
+    <p>French fries are served hot, either soft or crispy, and are generally eaten as part of lunch or dinner or by themselves as a snack, and they commonly appear on the menus of diners, fast food restaurants, pubs, and bars. They are usually salted and, depending on the country, may be served with ketchup, vinegar, mayonnaise, tomato sauce, or other local specialties. Fries can be topped more heavily, as in the dishes of poutine or chili cheese fries. Chips can be made from Sweet potato instead of potatoes. A baked variant, oven chips, uses less oil or no oil.</p>
+  </div>
+  
+</div>
+
+</body>
+</html>
